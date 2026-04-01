@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Mamoudou Ouattara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <h1>Porte-folio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#projets">Projets Académiques</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#langages">Langages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="projets" class="section">
+        <h2>PROJETS ACADÉMIQUES</h2>
+        <div class="flex">
+            <div class="col">
+                <h3>DÉVELOPPEMENT WEB</h3>
+                <p>Université Aube Nouvelle Bobo Dioulasso</p>
+                <ul>
+                    <li>E-commerce</li>
+                    <li>Écriture de script en Bash et batch</li>
+                    <li>Projet de gestion d'une bibliotheque en JAVA (affichage en mode graphique)</li>
+                    <li>Projet de gestion d'étudiants</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>RÉSEAU ET SYSTÈME</h3>
+                <ul>
+                    <li>Connecter 2 ou plusieurs ordinateurs dans un réseau et partager un fichier</li>
+                    <li>Résolution du nom</li>
+                    <li>Maintenance des ordinateurs</li>
+                    <li>Etablissement d'un reseau local</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences" class="section">
+        <h2>COMPÉTENCES</h2>
+        <h3>Langages de programmation</h3>
+        <ul>
+            <li>Langage C (niveau intermédiaire)</li>
+            <li>Écriture de script en Bash et batch (niveau intermédiaire)</li>
+            <li>C# (débutant)</li>
+            <li>JavaScript (niveau intermédiaire)</li>
+            <li>Java (niveau intermédiaire)</li>
+        </ul>
+        <h3>Bases de données</h3>
+        <ul>
+            <li>Access</li>
+            <li>MySQL</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>COORDONNÉES</h2>
+        <p>Email : <a href="mailto:mamoudou.ouattara03@gmail.com">mamoudou.ouattara03@gmail.com</a></p>
+        <p>Adresse : Burkina Faso, Bobo Dioulasso, secteur 11</p>
+        <p>WhatsApp : +226 05 24 95 15</p>
+        <p>Appel : +226 52 79 12 63</p>
+        <p>GitHub : <a href="https://github.com/tonpseudo">https://github.com/tonpseudo</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mamoudou Ouattara</p>
+    </footer>
+</body>
+</html>
